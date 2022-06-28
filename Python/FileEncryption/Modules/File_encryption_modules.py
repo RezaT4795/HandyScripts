@@ -44,4 +44,3 @@ def Decryptor(PrivKey, file):
     # Writing to the file
     with open(file, 'wb') as EncryptedFile:
         EncryptedFile.write(decrypted)
-        
